@@ -1,4 +1,4 @@
-#Faça um Programa que peça um número e então mostre a mensagem O número 
-#informado foi [número].
-number = float(input('Informe um número: '))
-print(f'O número informado foi {number}!')
+print(60*'=')
+numero = float(input('Digite um número: '))
+print(f'O número digitado foi {numero}!')
+print(60*'=')

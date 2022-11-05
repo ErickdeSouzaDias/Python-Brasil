@@ -1,3 +1,5 @@
-#Faça um Programa que peça dois números e imprima a soma. 
-n, m = float(input('Informe o número: ')),float(input('Digite outro número: '))
-print(f'A soma de {n} + {m} é {n+m}!')
+print(60*'=')
+numero1 = float(input('Digite um número: '))
+numero2 = float(input('Digite outro número: '))
+print(f'A soma entre {numero1} e {numero2} é igual a {numero1 + numero2}.')
+print(60*'=')

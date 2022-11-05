@@ -1,3 +1,4 @@
-#Faça um Programa que converta metros para centímetros. 
-le_metro = int(input('Digite o valor em metros [apenas números inteiros]: '))
-print(f'{le_metro}m equivalem a {le_metro*100}cm.')
+print(100*'=')
+metros = float(input('Digite uma distância em metros: '))
+print(f'{metros} metros equivalem a {metros*100} centimetros!')
+print(100*'=')

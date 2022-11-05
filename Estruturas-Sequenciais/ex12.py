@@ -1,0 +1,5 @@
+print(100*'=')
+print('Peso Ideal'.center(20))
+altura = float(input('Entre com sua altura: '))
+print(f'Seu peso ideal com essa altura é {72.7*altura- 58:.2f} Kg.')
+print(100*'=')

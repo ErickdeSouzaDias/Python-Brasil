@@ -1,5 +1,6 @@
-#Faça um Programa que calcule a área de um quadrado, em seguida mostre o 
-#dobro desta área para o usuário.
-quadrado = int(input('Digite o medida de um lado [Valpr inteiro]: '))
-dobro_area = (quadrado**2)*2
-print(f'O dobro da área desse quadrado é {dobro_area:.2f}.')
+print(100*'=')
+print('Ârea do quadrado'.center(30))
+lado = float(input('Qual a medida do lado do quadrado: '))
+area = lado*lado
+print(f'A ârea do quadrado de lado {lado} é igual a {area}!')
+print(f'O dobro da ârea é {area*2}.')

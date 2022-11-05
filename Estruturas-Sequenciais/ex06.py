@@ -1,3 +1,6 @@
-#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
-raio_circ = int(input('Qual o raio do circulo [Apenas inteiros]: '))
-print(f'A área deste circulo é {3.1415*(raio_circ**2):.2f}.')
+print(100*'=')
+print('Ârea do circulo'.center(30))
+raio = float(input('Qual o comprimento do raio:'))
+area = 3.1415*(raio**2)
+print(f'A ârea do circulo de raio {raio} é {area:.3f}!')
+print(100*'=')
